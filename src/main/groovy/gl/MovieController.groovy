@@ -3,7 +3,6 @@ package gl
 import gl.td3.movie.data.Movie
 import gl.td3.movie.data.MovieRequest
 import gl.td3.movie.service.MovieRegistry
-import io.micronaut.http.HttpResponse
 import io.micronaut.http.annotation.Controller
 import io.micronaut.http.annotation.Get
 import io.micronaut.http.HttpStatus
