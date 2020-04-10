@@ -19,7 +19,8 @@ class MovieController {
     MovieRegistry registry
     @Get("/")
     List<Movie> index() {
-        []
+        registry.listFavorites()
+
     }
     @Post('/')
     HttpStatus addMovie(MovieRequest movieRequest) {
